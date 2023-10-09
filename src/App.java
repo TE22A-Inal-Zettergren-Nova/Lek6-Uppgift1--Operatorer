@@ -24,6 +24,22 @@ public class App {
         System.out.println("Är "+talen[0]+" mindre än "+talen[1]+" eller "+talen[2]+"?: "+(talen[0]<talen[1] || talen[0]<talen[2]));
         System.out.println("Är "+talen[0]+" lika med "+talen[1]+" eller "+talen[2]+"?: "+(talen[0]>talen[1] || talen[0]>talen[2]));
 
+        /*Uppgift c */
+        System.out.println("Jag kan få alla tal att bli sju!");
+        System.out.println("Skriv in ett heltal: ");
+        int tal_gåta = tb.nextInt();
+        int x=tal_gåta;
+
+        System.out.println(tal_gåta+=7);
+        System.out.println(tal_gåta*=2);
+        System.out.println(tal_gåta-=6);
+        System.out.println(tal_gåta/=2);
+        System.out.println(tal_gåta+=3);
+        System.out.println(tal_gåta-=x);
+       
+
+
+
 
         
 
