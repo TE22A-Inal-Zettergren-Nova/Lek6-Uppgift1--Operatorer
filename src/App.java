@@ -30,12 +30,14 @@ public class App {
         int tal_gåta = tb.nextInt();
         int x=tal_gåta;
 
-        System.out.println(tal_gåta+=7);
-        System.out.println(tal_gåta*=2);
-        System.out.println(tal_gåta-=6);
-        System.out.println(tal_gåta/=2);
-        System.out.println(tal_gåta+=3);
-        System.out.println(tal_gåta-=x);
+        System.out.println("Adderar 7 till talet: "+(tal_gåta+=7));
+        System.out.println("Multiplicerar talet med 2: "+(tal_gåta*=2));
+        System.out.println("Subtraherar 6 från talet: "+(tal_gåta-=6));
+        System.out.println("Halverar talet: "+(tal_gåta/=2));
+        System.out.println("Adderar 3 till talet: "+(tal_gåta+=3));
+        System.out.println("Subtraherar det ursprungliga talet: "+(tal_gåta-=x));
+        System.out.println("Nu är ditt tal 7");
+       
        
 
 
